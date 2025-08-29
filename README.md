@@ -38,13 +38,13 @@ Then visit 👉 `http://localhost:8000`
 
 ## 📸 Screenshots
 ### Landing page
-![Landing Screenshot](./landing.png)
+![Landing Screenshot](./game%20img/landing.png)
 
 ### Category Section
 ![Category section](./game%20img/category.png)
 
 ### Game Play
-![Game play](./game img/game_play.png)
+![Game play](./game%20img/game_play.png)
 
 ---
 
