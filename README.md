@@ -15,6 +15,7 @@ It brings together a collection of simple, fun, and lightweight browser games �
 ---
 
 ## 📂 Project Structure
+```
 GamZork/
 ├── index.html # Landing page / home
 ├── cover.html # Main game page
@@ -22,25 +23,29 @@ GamZork/
 ├── mscript.js # Core JavaScript logic
 ├── game img/ # Images, icons, audio files
 └── README.md # Project documentation
-
+```
 ---
 
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
-
+```bash
 git clone https://github.com/<your-username>/GamZork.git
 cd GamZork
 python -m http.server 8000
-Then visit 👉 http://localhost:8000
+```
+Then visit 👉 `http://localhost:8000`
 
 ---
 
 ## 📸 Screenshots
+### Landing page
 ![Landing page](./game img/landing.png)
 
+### Category Section
 ![Category section](./game img/categories.png)
 
+### Game Play
 ![Game play](./game img/game_play.png)
 
 ---
