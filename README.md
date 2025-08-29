@@ -7,10 +7,8 @@ It brings together a collection of simple, fun, and lightweight browser games �
 
 ## 🌟 Features
 - 🕹️ **Free to Play** – All games are 100% free.  
-- ⚡ **Lightweight & Fast** – Built with plain HTML, CSS, and JS.  
-- 🎨 **Responsive Design** – Works smoothly on desktop, tablet, and mobile.  
-- 🎯 **Multiple Games** – Play action, puzzle, and arcade-style games.  
-- 🌍 **Accessible Anywhere** – Runs directly in the browser, no installation needed.  
+- ⚡ **Lightweight & Fast** – Built with plain HTML, CSS, and JS.   
+- 🎯 **Multiple Games** – Play action, puzzle, and arcade-style games.    
 
 ---
 
