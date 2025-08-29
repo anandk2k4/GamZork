@@ -60,10 +60,10 @@ Contributions are welcome! 🎉
 
 If you’d like to add new games, improve UI, or fix bugs:
 
--> Fork this repo
--> Create a new branch (feature-new-game)
--> Commit your changes
--> Open a Pull Request 🚀
+- Fork this repo
+- Create a new branch (feature-new-game)
+- Commit your changes
+- Open a Pull Request 🚀
 
 ---
 
