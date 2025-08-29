@@ -130,7 +130,7 @@ function toggleFullscreen() {
 }
 
 function closeGame() {
-  location.href = 'main.html'; 
+  location.href = 'index.html'; 
 }
 
 document.querySelectorAll('.group').forEach((card) => {
