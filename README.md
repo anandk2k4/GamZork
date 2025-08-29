@@ -38,7 +38,7 @@ Then visit 👉 `http://localhost:8000`
 
 ## 📸 Screenshots
 ### Landing page
-![Landing page](./game img/landing.png)
+![Landing Screenshot](../landing.png)
 
 ### Category Section
 ![Category section](./game img/category.png)
@@ -61,11 +61,8 @@ Contributions are welcome! 🎉
 If you’d like to add new games, improve UI, or fix bugs:
 
 -> Fork this repo
-
 -> Create a new branch (feature-new-game)
-
 -> Commit your changes
-
 -> Open a Pull Request 🚀
 
 ---
