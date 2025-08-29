@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="\game img\logo.png" />
+    <title>Gamzork | Gaming Website 🎮</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="mstyle.css" />
+</head>
+<body class="bg-gray-900 flex items-center justify-center min-h-screen bgbody">
+<div id="gameContainer" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+    <div class="bg-black p-3 rounded-lg relative w-3/4 max-w-2xl bgcover shadow-lg">
+        <img src="\game img\logoGamzork.png" alt="" class="w-[90px] h-[20px]">
+        <button onclick="closeGame()" class="absolute top-2 right-2 text-gray-500 hover:text-red-500 transition duration-300 text-3xl" title="Close Game">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+        <div class="flex top-4">
+            <div class="w-[1100px] h-[500px] my-4">
+                <iframe id="mainGame" class="w-full h-[480px] rounded-lg" src="" frameborder="0"></iframe>
+            </div>
+            <div class="absolute bottom-4 left-6 text-white text-xl font-bold">
+                <h2 id="gameTitle"></h2>
+            </div>
+            <div id="starRating" class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex items-center space-x-2"></div>
+            
+            
+            
+            <div class="absolute bottom-4 right-3 flex items-center space-x-4">
+                <!-- Like Button -->
+                <button id="likeButton" onclick="toggleLike()" class="px-2 text-red-500 hover:text-white transition-all text-xl" title="Like Game">
+                    <i class="bx bx-heart"></i>
+                </button>
+
+                <!-- Share Button -->
+                <button onclick="shareGame()" class="px-2 text-blue-500 hover:text-white transition-all text-xl" title="Share Game">
+                    <i class="bx bx-share-alt"></i>
+                </button>
+
+                <!-- Fullscreen Button -->
+                <button onclick="toggleFullscreen()" class="px-2 text-gray-500 hover:text-white transition-all text-xl" title="Toggle Fullscreen">
+                    <i class="bx bx-fullscreen"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="mscript.js"></script>
+</body>
+</html>
