@@ -41,7 +41,7 @@ Then visit 👉 `http://localhost:8000`
 ![Landing Screenshot](./landing.png)
 
 ### Category Section
-![Category section](./game img/category.png)
+![Category section](./game%20img/category.png)
 
 ### Game Play
 ![Game play](./game img/game_play.png)
