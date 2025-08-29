@@ -38,7 +38,7 @@ Then visit 👉 `http://localhost:8000`
 
 ## 📸 Screenshots
 ### Landing page
-![Landing Screenshot](../landing.png)
+![Landing Screenshot](./landing.png)
 
 ### Category Section
 ![Category section](./game img/category.png)
